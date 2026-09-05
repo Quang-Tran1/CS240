@@ -1,1 +1,0 @@
-# Write a program that consumes pixel values and creates an image.
