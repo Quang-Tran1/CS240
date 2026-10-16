@@ -13,6 +13,8 @@
 * **How to Run**: Open `3. Snake.asm` and set the Bitmap Display to Unit Width/Height 2px, Display Width/Height 512px and base address 0x10010000 (static data). Connect the Bitmap Display and the Keyboard MMIO Simulator, set the Run Speed slider to max, then assemble and run. Press W/A/S/D in the KEYBOARD box; the first key starts the game, and `TICK_MS` sets the speed. To watch a bot win, run `3. SnakeAutoplay.asm` with the same display settings. It needs no keyboard and follows `bot_path`, a loop through every cell.
 
 ### AI Disclosure
-* **Model**: `Anthropic Claude Opus 5.5 High`
-* **Specific Task**: Converting drawings into bitmap string, Consult for advice on functions, techniques, and workarounds, Snake Autoplay to verify game win edge case, Drafted Design Note & Instructions to Run
-* **Distribution**:  40% AI generated code, 60% Human written code
+* **Tools used**: `Anthropic Claude Opus 5.5 High`
+* **Purpose**: Converting drawings into bitmap string, Consult for advice on functions, techniques, and workarounds, Snake Autoplay to verify game win edge case, Drafted Design Note & Instructions to Run
+* **Extent of use**: Overall 40% AI generated code, 60% Human written code
+	* 1. TicTacToe.asm (~20% AI) 2. BlackJack.asm (~20% AI) 3. Snake.asm (~20%) 3. SnakeAutoplay.asm (100% AI)
+* **My contribution**: I independently drew each asset in a drawing program, implemented most functions, and tested each program.
